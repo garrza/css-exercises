@@ -5,8 +5,51 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+.footer {
+  margin-top: auto;
+  display: flex;
+  background-color:aliceblue;
+  font-size: large;
+  padding: 10px;
+  font-family: 'Courier New', Courier, monospace;
 }
 
+.right-links{
+  display: flex;
+  gap: 32px;
+  list-style-type: none;
+  margin-left: auto;
+}
+
+.header {
+  margin-bottom: auto;
+  display: flex;
+  font-size: large;
+  padding: 10px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.left-links{
+  display: flex;
+  gap: 32px;
+  list-style-type: none;
+  margin-right: auto;
+}
+
+.content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
 img {
   width: 600px;
 }
@@ -16,6 +59,7 @@ button {
   border: none;
   border-radius: 8px;
   background: #eee;
+  padding: 15px;
 }
 
 input {
