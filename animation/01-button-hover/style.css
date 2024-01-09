@@ -17,3 +17,18 @@ button {
   padding: 16px 24px;
   text-align: center;
 }
+
+button:hover {
+  cursor: pointer;
+  /* smoothly make it grow and shrink */
+  animation: alter-size 0.3s ease-in-out forwards;
+}
+
+@keyframes alter-size {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.5);
+  }
+}
